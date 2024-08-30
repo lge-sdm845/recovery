@@ -76,6 +76,7 @@ BOARD_ROOT_EXTRA_FOLDERS := bt_firmware dsp persist
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Recovery
+BOOTLOADER_MESSAGE_OFFSET := 128
 TARGET_RECOVERY_PIXEL_FORMAT := BGRA_8888
 
 # Build flags
@@ -100,7 +101,6 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # TWRP specific build flags
 TW_THEME := portrait_hdpi
-TW_IGNORE_MISC_WIPE_DATA := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 RECOVERY_SDCARD_ON_DATA := true
