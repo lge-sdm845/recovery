@@ -10,8 +10,8 @@
 /persist_image	 emmc	/dev/block/bootdevice/by-name/persist	 flags=display="Persist";backup=1;flashimg=1
 
 # Data partition
-/data            ext4   /dev/block/bootdevice/by-name/userdata   flags=fileencryption=ice;keydirectory=/metadata/vold/metadata_encryption;reservedsize=128M
-/data            f2fs   /dev/block/bootdevice/by-name/userdata   flags=fileencryption=ice;keydirectory=/metadata/vold/metadata_encryption;reservedsize=128M
+/data            ext4   /dev/block/bootdevice/by-name/userdata   flags=fileencryption=ice;keydirectory=/metadata/vold/metadata_encryption
+/data            f2fs   /dev/block/bootdevice/by-name/userdata   flags=fileencryption=ice;keydirectory=/metadata/vold/metadata_encryption
 /metadata        ext4   /dev/block/by-name/persdata              flags=display="Metadata";wipeingui
 
 # Misc
