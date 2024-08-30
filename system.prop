@@ -1,4 +1,5 @@
-ro.display.series=Asus Zenfone 5z
+ro.display.series=LG V40 ThinQ
 ro.product.board=sdm845
 ro.board.platform=sdm845
-ro.crypto.volume.filenames_mode=aes-256-cts
+vendor.gatekeeper.disable_spu=true
+sys.usb.controller=a600000.dwc3
